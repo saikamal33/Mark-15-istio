@@ -9,3 +9,10 @@ it controlles - traffic management, security, observability, resiliency, Policy 
 # Working
 
 its typically uses a sidecar proxy pattern, where a lighweight proxy is deployed alongside each microservice. these proxies intercepts and manages all networks traffic between services.
+
+## Admission Controllers
+
+Admission controllers in kubernetes enforce policies on objects during their creation or modification. They intercept requests to the kubernetes API server before objects are persisted and can modify or deny requests based on predefined rules.
+
+we can find the predefined admission controllers in the kubernets api server config file.
+
