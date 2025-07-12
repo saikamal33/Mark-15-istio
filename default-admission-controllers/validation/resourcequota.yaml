@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: quota-demo
+spec:
+  hard:
+    cpu: "1"
+    memory: 2Gi
+
+# we are setting the resource limit so a creation request can be mutated 
