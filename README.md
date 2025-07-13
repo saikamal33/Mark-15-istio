@@ -1,6 +1,6 @@
 # This repo is used for istio setup
 
-#Istio
+## Istio
 
 it help us to control and secure how micro services talk to each other without chnaging the services themselves.
 
