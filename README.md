@@ -30,3 +30,11 @@ kubectl apply -f pod.yaml
 Error from server (Forbidden): error when creating "pod.yaml": pods "demo-pod" is forbidden: exceeded quota: quota-demo, requested: memory=10Gi, used: memory=0, limited: memory=2Gi
 ~~~
 
+# Installation of Istio 
+
+Please follow the below link for the installation of Istio.
+~~~
+https://istio.io/latest/docs/setup/getting-started/
+~~~
+
+
