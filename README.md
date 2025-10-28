@@ -2,7 +2,7 @@
 
 ## Istio
 
-it help us to control and secure how micro services talk to each other without chnaging the services themselves.
+it help us to control and secure how micro services talk to each other without changing the services themselves.
 
 it controlles - traffic management, security, observability, resiliency, Policy Enforcement.
 
